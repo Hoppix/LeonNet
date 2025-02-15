@@ -6,6 +6,5 @@
 \beamer@subsectionintoc {2}{1}{Defining the "Best Cat" Function}{5}{0}{2}
 \beamer@sectionintoc {3}{Empirical Studies}{11}{0}{3}
 \beamer@subsectionintoc {3}{1}{Computational Simulations}{11}{0}{3}
-\beamer@sectionintoc {4}{LeonNet, feline Neural Network}{17}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{17}{0}{5}
-\beamer@sectionintoc {6}{Sources}{18}{0}{6}
+\beamer@sectionintoc {4}{Conclusion}{17}{0}{4}
+\beamer@sectionintoc {5}{Sources}{19}{0}{5}
