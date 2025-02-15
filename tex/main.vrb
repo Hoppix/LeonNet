@@ -1,0 +1,22 @@
+\frametitle{Simulating Leon Uncertainty Principle}
+  %\begin{itemize}
+  %  \item Verified via Python Simulation and Advanced Feline Machine Learning Algorithms
+  %\end{itemize}
+  \begin{figure}
+
+\begin{lstlisting}[language=Python, basicstyle=\scriptsize\ttfamily, keywordstyle=\color{blue}, commentstyle=\color{green}]
+import random
+
+def simulate_zoomies(iterations=10):
+    """Leon’s location is impossible to predict due to quantum zoomie mechanics."""
+    for i in range(iterations):
+        x = random.uniform(-10, 10)
+        # Random position in room
+        y = random.uniform(-10, 10)
+        print(f"Zoomie {i+1}: Leon is now at ({x:.2f}, {y:.2f})")
+
+simulate_zoomies()
+\end{lstlisting}
+\caption{Leon exhibits non-deterministic movement, confirming the Feline Uncertainty Principle.}
+
+  \end{figure}
