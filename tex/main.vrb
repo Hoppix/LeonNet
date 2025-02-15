@@ -1,22 +1,21 @@
-\frametitle{Simulating Leon Uncertainty Principle}
-  %\begin{itemize}
-  %  \item Verified via Python Simulation and Advanced Feline Machine Learning Algorithms
-  %\end{itemize}
+\frametitle{Empirical Leon Cuteness}
+  \begin{itemize}
+    \item Machine learning model predicting Leon's cuteness
+  \end{itemize}
   \begin{figure}
 
 \begin{lstlisting}[language=Python, basicstyle=\scriptsize\ttfamily, keywordstyle=\color{blue}, commentstyle=\color{green}]
-import random
+from sklearn.linear_model import LinearRegression
 
-def simulate_zoomies(iterations=10):
-    """Leon’s location is impossible to predict due to quantum zoomie mechanics."""
-    for i in range(iterations):
-        x = random.uniform(-10, 10)
-        # Random position in room
-        y = random.uniform(-10, 10)
-        print(f"Zoomie {i+1}: Leon is now at ({x:.2f}, {y:.2f})")
+hours = [[1], [2], [3], [4], [5]]
+cuteness_score = [10, 10, 10, 10, 10]
 
-simulate_zoomies()
+model = LinearRegression().fit(hours, cuteness_score)
+prediction = model.predict([[100]])
+
+print(f"Predicted Cuteness Score after 100 hours with Leon: {prediction[0]}")
+
 \end{lstlisting}
-\caption{Leon exhibits non-deterministic movement, confirming the Feline Uncertainty Principle.}
+\caption{Model confirms that spending time with Leon leads to a maximized cuteness perception at all times}
 
   \end{figure}

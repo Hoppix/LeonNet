@@ -274,6 +274,31 @@ simulate_zoomies()
 \end{frame}
 
 
+\begin{frame}[fragile]
+  \frametitle{Empirical Leon Cuteness}
+  \begin{itemize}
+    \item Machine learning model predicting Leon's cuteness
+  \end{itemize}
+  \begin{figure}
+    
+\begin{lstlisting}[language=Python, basicstyle=\scriptsize\ttfamily, keywordstyle=\color{blue}, commentstyle=\color{green}]
+from sklearn.linear_model import LinearRegression
+
+hours = [[1], [2], [3], [4], [5]]
+cuteness_score = [10, 10, 10, 10, 10]
+
+model = LinearRegression().fit(hours, cuteness_score)
+prediction = model.predict([[100]])
+
+print(f"Predicted Cuteness Score after 100 hours with Leon: {prediction[0]}")
+
+\end{lstlisting}
+\caption{Model confirms that spending time with Leon leads to a maximized cuteness perception at all times}
+
+  \end{figure}
+\end{frame}
+
+
 \section{Conclusion}
 \begin{frame}{Conclusion}
     \begin{itemize}
